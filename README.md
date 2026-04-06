@@ -42,8 +42,8 @@ Aplicacion para la gestion de usuarios, productos y categorias, incluyendo alta,
 ## Funcionalidad
 A continuación, se detallan los métodos del servicio:
 
-## - Consulta de categorías
-### - Descripción:
+## Consulta de categorías
+### Descripción:
 Devuelve todas las categorías que no estén dadas de baja
 
 ### Devuelve:
