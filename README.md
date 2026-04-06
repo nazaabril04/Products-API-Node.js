@@ -1,23 +1,22 @@
 # Sistema de Venta de Productos
 
 ## Descripcion 
-Aplicacion para la gestion de usuarios, productos y categorias, incluyendo alta, baja, modiciacion y consulta de los mismos. 
+Aplicacion para la gestion de usuarios, productos y categorias, incluyendo alta, baja, modificacion y consulta de los mismos. 
 
 ## Tecnologias
-- JavasCript (Node.js)
+- JavaScript (Node.js)
 - MySql
 - Visual Studio Code
 
 ## Base de datos
-
-## Tabla de usuarios:
+### Tabla de usuarios:
 - Id
 - Nombre de usuario
 - Password (debe estar encriptada)
 - Nombre y apellido
 - Es administrador
 
-## Tabla de categorías:
+### Tabla de categorías:
 - Id
 - Descripción
 - Id usuario de alta (FK de la tabla de usuarios)
@@ -27,7 +26,7 @@ Aplicacion para la gestion de usuarios, productos y categorias, incluyendo alta,
 - Id usuario de baja (FK de la tabla de usuarios)
 - Fecha de baja
 
-## Tabla de productos:
+### Tabla de productos:
 - Id
 - Nombre
 - Descripción
@@ -44,7 +43,8 @@ Aplicacion para la gestion de usuarios, productos y categorias, incluyendo alta,
 A continuación, se detallan los métodos del servicio:
 
 ## - Consulta de categorías
-### - Descripción: Devuelve todas las categorías que no estén dadas de baja
+### - Descripción:
+Devuelve todas las categorías que no estén dadas de baja
 
 ### Devuelve:
 - Id
@@ -57,7 +57,8 @@ A continuación, se detallan los métodos del servicio:
 - Fecha de modificación (Este método puede ser ejecutado por cualquier usuario con un token válido)
 
 ## Consulta de categoría por id
-### Descripción: Devuelve la categoría recibida como parámetro, se pueden consultar las categorías dadas de baja.
+### Descripción: 
+Devuelve la categoría recibida como parámetro, se pueden consultar las categorías dadas de baja.
 
 ### Devuelve:
 - Id
@@ -73,7 +74,8 @@ A continuación, se detallan los métodos del servicio:
 - Fecha de baja (Este método puede ser ejecutado por cualquier usuario con un token válido)
 
 ## Alta de categoría
-### Descripción: Permite dar de alta una nueva categoría
+### Descripción: 
+Permite dar de alta una nueva categoría
 
 ### Recibe:
 - Descripción
@@ -82,7 +84,8 @@ A continuación, se detallan los métodos del servicio:
 - Descripción (Este método solo puede ser ejecutado por un administrador)
 
 ## Modificación de categorías
-### Descripción: Permite modificar una categoría
+### Descripción: 
+Permite modificar una categoría
 
 ### Recibe:
 - Id de la categoría a modificar
@@ -92,11 +95,12 @@ A continuación, se detallan los métodos del servicio:
 - Descripción (Este método solo puede ser ejecutado por un administrador)
 
 ## Baja de categoría
-### Descripción: Realiza la baja lógica de la categoría
-(Este método solo puede ser ejecutado por un administrador)
+### Descripción: 
+Realiza la baja lógica de la categoría (Este método solo puede ser ejecutado por un administrador)
 
 ## Consulta de productos
-### Descripción: Devuelve todos los productos que no estén dados de baja, pudiendo opcionalmente filtrar por rango de precios, nombre y/o categoría.
+### Descripción: 
+Devuelve todos los productos que no estén dados de baja, pudiendo opcionalmente filtrar por rango de precios, nombre y/o categoría.
 
 ### Devuelve:
 - Id
@@ -113,7 +117,8 @@ A continuación, se detallan los métodos del servicio:
 - Fecha de modificación (Este método puede ser ejecutado por cualquier usuario con un token válido)
 
 ## Consulta de producto por id
-### Descripción: Devuelve el producto recibido como parámetro, se pueden consultar los productos dados de baja.
+### Descripción: 
+Devuelve el producto recibido como parámetro, se pueden consultar los productos dados de baja.
 
 ### Devuelve:
 - Id
@@ -133,7 +138,8 @@ A continuación, se detallan los métodos del servicio:
 - Fecha de baja (Este método puede ser ejecutado por cualquier usuario con un token válido)
 
 ## Alta de producto
-### Descripción: Permite dar de alta un nuevo producto.
+### Descripción: 
+Permite dar de alta un nuevo producto.
 
 ### Recibe:
 - Nombre
@@ -148,7 +154,8 @@ A continuación, se detallan los métodos del servicio:
 - Id categoría (Este método solo puede ser ejecutado por un administrador)
 
 ## Modificación de producto
-### Descripción: Permite modificar un producto.
+### Descripción: 
+Permite modificar un producto.
 
 ### Recibe:
 - Id del producto a modificar
@@ -164,11 +171,12 @@ A continuación, se detallan los métodos del servicio:
 - Id categoría (Este método solo puede ser ejecutado por un administrador)
 
 ## Baja de producto
-### Descripción: Realiza la baja lógica del producto
-(Este método solo puede ser ejecutado por un administrador)
+### Descripción: 
+Realiza la baja lógica del producto (Este método solo puede ser ejecutado por un administrador)
 
 ## Login
-### Descripción: Permite a los usuarios obtener un token para invocar el resto de las funcionalidades.
+### Descripción: 
+Permite a los usuarios obtener un token para invocar el resto de las funcionalidades.
 
 ### Recibe:
 - Nombre de usuario
