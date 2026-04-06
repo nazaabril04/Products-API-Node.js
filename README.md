@@ -1,3 +1,13 @@
+# Sistema de Venta de Productos
+
+## Descripcion 
+Aplicacion para la gestion de usuarios, productos y categorias, incluyendo alta, baja, modiciacion y consulta de los mismos. 
+
+## Tecnologias
+- JavasCript (Node.js)
+- MySql
+- Visual Studio Code
+
 ## Base de datos
 
 ## Tabla de usuarios:
@@ -14,7 +24,7 @@
 - Fecha de alta
 - Id usuario modificación (FK de la tabla de usuarios)
 - Fecha de modificación
-- Id usuario de baja FK de la tabla de usuarios)
+- Id usuario de baja (FK de la tabla de usuarios)
 - Fecha de baja
 
 ## Tabla de productos:
@@ -31,10 +41,10 @@
 - Fecha de baja
 
 ## Funcionalidad
-A continuación, se detallan los métodos del servicio
+A continuación, se detallan los métodos del servicio:
 
-## Consulta de categorías
-### Descripción: Devuelve todas las categorías que no estén dadas de baja
+## - Consulta de categorías
+### - Descripción: Devuelve todas las categorías que no estén dadas de baja
 
 ### Devuelve:
 - Id
