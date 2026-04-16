@@ -192,3 +192,19 @@ Permite a los usuarios obtener un token para invocar el resto de las funcionalid
 - Uso de token JWT para la autenticación de los usuarios
 - Uso de un archivo .env para variables de entorno
 - Contraseñas encriptadas
+
+# Instalacion y Ejecución 
+1. Clonar el proyecto:
+
+` git clone <URL-DEL-REPOSITORIO> `
+
+2. Instalar dependencias;
+
+` npm install `
+
+3. 
+
+
+
+
+
