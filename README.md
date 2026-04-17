@@ -198,11 +198,23 @@ Permite a los usuarios obtener un token para invocar el resto de las funcionalid
 
 ` git clone <URL-DEL-REPOSITORIO> `
 
+O bien descargar el archivo `.zip` y descomprimirlo.
+
 2. Instalar dependencias;
 
 ` npm install `
 
-3. 
+3. Configurar Nodemon;
+
+Si el proyecto no lo incluye, instalar;
+
+`npm install -g nodemon`
+
+4. Ejecutar el proyecto;
+
+Con **Nodemon** -> `nodemon`
+
+En modo normal -> `npm start`
 
 
 
