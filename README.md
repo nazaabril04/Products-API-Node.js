@@ -1,12 +1,18 @@
 # Sistema de Venta de Productos
 
 ## Descripcion 
-Aplicacion para la gestion de usuarios, productos y categorias, incluyendo alta, baja, modificacion y consulta de los mismos. 
+API REST para la gestión integral de un sistema de ventas: usuarios, categorías y productos, con autenticación JWT, baja lógica y control de acceso por roles.
 
-## Tecnologias
-- JavaScript (Node.js)
-- MySql
-- Visual Studio Code
+## 🛠 Tecnologías
+
+| Tecnología | Uso |
+|------------|-----|
+| Node.js | Runtime de JavaScript |
+| Express | Framework web |
+| MySQL | Base de datos relacional |
+| JWT | Autenticación stateless |
+| bcrypt | Encriptación de contraseñas |
+| dotenv | Variables de entorno |
 
 ## Base de datos
 ### Tabla de usuarios:
